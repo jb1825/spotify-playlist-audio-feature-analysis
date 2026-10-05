@@ -16,7 +16,12 @@ st.write(
 )
 
 # Load dataset
-df = pd.read_csv("data/sample_tracks.csv")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+DATA_FILE = BASE_DIR / "data" / "sample_tracks.csv"
+
+df = pd.read_csv(DATA_FILE)
 
 st.success(f"Dataset loaded successfully: {len(df)} tracks")
 
