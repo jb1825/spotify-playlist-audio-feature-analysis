@@ -1,0 +1,7 @@
+feature,F,p_value,eta_squared
+danceability,406.8,0.0,0.588
+energy,661.8,0.0,0.699
+valence,73.7,4.378089475088041e-95,0.206
+acousticness,1050.1,0.0,0.787
+tempo,28.8,5.494840079231473e-38,0.092
+loudness,746.8,0.0,0.724

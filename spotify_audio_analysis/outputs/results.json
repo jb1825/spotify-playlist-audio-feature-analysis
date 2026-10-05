@@ -1,0 +1,25 @@
+{
+  "source": "sample",
+  "n_tracks": 2000,
+  "n_genres": 8,
+  "genres": [
+    "metal",
+    "electronic",
+    "rock",
+    "pop",
+    "hip-hop",
+    "country",
+    "jazz",
+    "classical"
+  ],
+  "corr_energy_loudness": 0.728,
+  "corr_energy_acousticness": -0.711,
+  "corr_danceability_valence": 0.211,
+  "kmeans_purity": 0.483,
+  "most_danceable": "hip-hop",
+  "least_danceable": "classical",
+  "highest_energy": "metal",
+  "lowest_energy": "classical",
+  "fastest": "metal",
+  "slowest": "classical"
+}
